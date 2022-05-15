@@ -6,4 +6,6 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 
 include_directories(Include)
 
-add_executable(Saper main.c Include/dataBase.h Source/dataBase.c)
+add_executable(Saper main.c Include/dataJSON.h Source/dataJSON.c Source/window.c Include/window.h)
+
+target_link_libraries(Saper -ljson-c -lglut)

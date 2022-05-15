@@ -1,3 +1,7 @@
 {
-  "Example": "lol"
+  "WindowSize": [
+    700,
+    700
+  ],
+  "WindowTitle": "2D Engine"
 }
